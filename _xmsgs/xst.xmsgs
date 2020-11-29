@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="327" delta="old" >"H:\MyThesis\Xilinx\thesisTry\microprocessor.v" Line 92: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="817" delta="new" >"H:\MyThesis\Xilinx\thesisTry\top_level.v" Line 78: System task <arg fmt="%s" index="1">stop</arg> ignored for synthesis
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"H:\MyThesis\Xilinx\thesisTry\top_level.v" Line 92: Assignment to <arg fmt="%s" index="1">Test_mem</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="old" >"H:\MyThesis\Xilinx\thesisTry\microprocessor.v" Line 92: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"H:\MyThesis\Xilinx\thesisTry\PC.v" Line 38: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\ALU.v" Line 49: Signal &lt;<arg fmt="%s" index="1">Update</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\ALU.v" Line 55: Signal &lt;<arg fmt="%s" index="1">Condition_update</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\ALU.v" Line 57: Signal &lt;<arg fmt="%s" index="1">Zsoc</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\ALU.v" Line 58: Signal &lt;<arg fmt="%s" index="1">Zsoc</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\ALU.v" Line 59: Signal &lt;<arg fmt="%s" index="1">Zsoc</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\ALU.v" Line 60: Signal &lt;<arg fmt="%s" index="1">Zsoc</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 92: Signal &lt;<arg fmt="%s" index="1">CU_in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 94: Signal &lt;<arg fmt="%s" index="1">CU_in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 99: Signal &lt;<arg fmt="%s" index="1">CU_in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 101: Signal &lt;<arg fmt="%s" index="1">CU_in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 106: Signal &lt;<arg fmt="%s" index="1">CU_in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 108: Signal &lt;<arg fmt="%s" index="1">CU_in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 115: Signal &lt;<arg fmt="%s" index="1">CU_in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 117: Signal &lt;<arg fmt="%s" index="1">CU_in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 119: Signal &lt;<arg fmt="%s" index="1">CU_in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 121: Signal &lt;<arg fmt="%s" index="1">CU_in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 123: Signal &lt;<arg fmt="%s" index="1">CU_in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 128: Signal &lt;<arg fmt="%s" index="1">CU_in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 132: Signal &lt;<arg fmt="%s" index="1">CU_in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 139: Signal &lt;<arg fmt="%s" index="1">CU_in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 140: Signal &lt;<arg fmt="%s" index="1">Zero</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 140: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 141: Signal &lt;<arg fmt="%s" index="1">CU_in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 142: Signal &lt;<arg fmt="%s" index="1">Zero</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 142: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 143: Signal &lt;<arg fmt="%s" index="1">CU_in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 144: Signal &lt;<arg fmt="%s" index="1">Zero</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 144: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 153: Signal &lt;<arg fmt="%s" index="1">CU_in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 162: Signal &lt;<arg fmt="%s" index="1">CU_in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 170: Signal &lt;<arg fmt="%s" index="1">CU_in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 180: Signal &lt;<arg fmt="%s" index="1">CU_in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 191: Signal &lt;<arg fmt="%s" index="1">CU_in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 192: Signal &lt;<arg fmt="%s" index="1">CU_in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 206: Signal &lt;<arg fmt="%s" index="1">CU_in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 214: Signal &lt;<arg fmt="%s" index="1">CU_in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 229: Signal &lt;<arg fmt="%s" index="1">CU_in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 230: Signal &lt;<arg fmt="%s" index="1">CU_in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 251: Signal &lt;<arg fmt="%s" index="1">CU_in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 258: Signal &lt;<arg fmt="%s" index="1">CU_in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 279: Signal &lt;<arg fmt="%s" index="1">CU_in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 287: Signal &lt;<arg fmt="%s" index="1">CU_in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"H:\MyThesis\Xilinx\thesisTry\CU.v" Line 353: Signal &lt;<arg fmt="%s" index="1">CU_in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"H:\MyThesis\Xilinx\thesisTry\SP.v" Line 35: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"H:\MyThesis\Xilinx\thesisTry\top_level.v" Line 103: Assignment to <arg fmt="%s" index="1">Test_state</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"H:\MyThesis\Xilinx\thesisTry\top_level.v" Line 104: Assignment to <arg fmt="%s" index="1">Test_pc</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"H:\MyThesis\Xilinx\thesisTry\top_level.v" Line 105: Assignment to <arg fmt="%s" index="1">Test_b</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"H:\MyThesis\Xilinx\thesisTry\top_level.v" Line 106: Assignment to <arg fmt="%s" index="1">Test_a</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"H:\MyThesis\Xilinx\thesisTry\top_level.v" Line 107: Assignment to <arg fmt="%s" index="1">Test_dat</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"H:\MyThesis\Xilinx\thesisTry\top_level.v" Line 108: Assignment to <arg fmt="%s" index="1">Test_MAR_in</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"H:\MyThesis\Xilinx\thesisTry\top_level.v" Line 109: Assignment to <arg fmt="%s" index="1">Zero</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"H:\MyThesis\Xilinx\thesisTry\top_level.v" Line 110: Assignment to <arg fmt="%s" index="1">Sign</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"H:\MyThesis\Xilinx\thesisTry\top_level.v" Line 143: Assignment to <arg fmt="%s" index="1">chanAddr</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"H:\MyThesis\Xilinx\thesisTry\top_level.v" Line 144: Assignment to <arg fmt="%s" index="1">h2fData</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"H:\MyThesis\Xilinx\thesisTry\top_level.v" Line 145: Assignment to <arg fmt="%s" index="1">h2fValid</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"H:\MyThesis\Xilinx\thesisTry\top_level.v" Line 149: Assignment to <arg fmt="%s" index="1">f2hReady</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"H:\MyThesis\Xilinx\thesisTry\top_level.v" Line 52: Net &lt;<arg fmt="%s" index="1">f2hData[7]</arg>&gt; does not have a driver.
+</msg>
+
+</messages>

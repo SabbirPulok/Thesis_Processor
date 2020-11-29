@@ -1,0 +1,28 @@
+Command line:
+   comm_fpga_fx2_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  64638
+
+Sun Nov 29 11:08:05 2020
+
+
+ Elaboration Time: 0.28125 sec
+
+ Current Memory Usage: 5659.61 Meg
+
+ Total Signals          : 24
+ Total Nets             : 55
+ Total Signal Drivers   : 14
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 17
+ Total Traceable Variables  : 50
+ Total Scalar Nets and Variables : 290
+
+ Total Simulation Time: 0.359375 sec
+
+ Current Memory Usage: 4715.86 Meg
+
+Sun Nov 29 11:10:30 2020
+

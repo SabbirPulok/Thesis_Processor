@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "H:/MyThesis/Xilinx/thesisTry/comm_fpga_fx2_isim_beh.exe" -prj "H:/MyThesis/Xilinx/thesisTry/comm_fpga_fx2_beh.prj" "work.comm_fpga_fx2" "work.glbl" 

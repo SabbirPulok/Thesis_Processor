@@ -1,0 +1,221 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Reading design: top_level.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "top_level.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "top_level"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : top_level
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "H:\MyThesis\Xilinx\thesisTry\SP.v" into library work
+Parsing module <SP>.
+Analyzing Verilog file "H:\MyThesis\Xilinx\thesisTry\RF.v" into library work
+Parsing module <RF>.
+Analyzing Verilog file "H:\MyThesis\Xilinx\thesisTry\PC.v" into library work
+Parsing module <PC>.
+Analyzing Verilog file "H:\MyThesis\Xilinx\thesisTry\MBR.v" into library work
+Parsing module <MBR>.
+Analyzing Verilog file "H:\MyThesis\Xilinx\thesisTry\MAR.v" into library work
+Parsing module <MAR>.
+Analyzing Verilog file "H:\MyThesis\Xilinx\thesisTry\IR.v" into library work
+Parsing module <IR>.
+Analyzing Verilog file "H:\MyThesis\Xilinx\thesisTry\CU.v" into library work
+Parsing module <CU>.
+Analyzing Verilog file "H:\MyThesis\Xilinx\thesisTry\ALU.v" into library work
+Parsing module <ALU>.
+Analyzing Verilog file "H:\MyThesis\Xilinx\thesisTry\ram.v" into library work
+Parsing module <ram>.
+Analyzing Verilog file "H:\MyThesis\Xilinx\thesisTry\microprocessor.v" into library work
+Parsing module <microprocessor>.
+WARNING:HDLCompiler:327 - "H:\MyThesis\Xilinx\thesisTry\microprocessor.v" Line 92: Concatenation with unsized literal; will interpret as 32 bits
+Analyzing Verilog file "H:\MyThesis\Xilinx\thesisTry\comm_fpga_fx2.v" into library work
+Parsing module <comm_fpga_fx2>.
+Analyzing Verilog file "H:\MyThesis\Xilinx\thesisTry\top_level.v" into library work
+Parsing module <top_level>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <top_level>.
+WARNING:HDLCompiler:817 - "H:\MyThesis\Xilinx\thesisTry\top_level.v" Line 78: System task stop ignored for synthesis
+
+Elaborating module <ram>.
+WARNING:HDLCompiler:1127 - "H:\MyThesis\Xilinx\thesisTry\top_level.v" Line 92: Assignment to Test_mem ignored, since the identifier is never used
+WARNING:HDLCompiler:327 - "H:\MyThesis\Xilinx\thesisTry\microprocessor.v" Line 92: Concatenation with unsized literal; will interpret as 32 bits
+
+Elaborating module <microprocessor>.
+
+Elaborating module <MBR>.
+
+Elaborating module <IR>.
+
+Elaborating module <PC>.
+WARNING:HDLCompiler:413 - "H:\MyThesis\Xilinx\thesisTry\PC.v" Line 38: Result of 32-bit expression is truncated to fit in 16-bit target.
+
+Elaborating module <RF>.
+
+Elaborating module <ALU>.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\ALU.v" Line 49: Signal <Update> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\ALU.v" Line 55: Signal <Condition_update> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\ALU.v" Line 57: Signal <Zsoc> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\ALU.v" Line 58: Signal <Zsoc> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\ALU.v" Line 59: Signal <Zsoc> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\ALU.v" Line 60: Signal <Zsoc> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+
+Elaborating module <MAR>.
+
+Elaborating module <CU>.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 92: Signal <CU_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 94: Signal <CU_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 99: Signal <CU_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 101: Signal <CU_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 106: Signal <CU_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 108: Signal <CU_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 115: Signal <CU_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 117: Signal <CU_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 119: Signal <CU_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 121: Signal <CU_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 123: Signal <CU_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 128: Signal <CU_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 132: Signal <CU_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 139: Signal <CU_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 140: Signal <Zero> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 140: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 141: Signal <CU_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 142: Signal <Zero> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 142: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 143: Signal <CU_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 144: Signal <Zero> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 144: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 153: Signal <CU_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 162: Signal <CU_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 170: Signal <CU_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 180: Signal <CU_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 191: Signal <CU_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 192: Signal <CU_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 206: Signal <CU_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 214: Signal <CU_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 229: Signal <CU_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 230: Signal <CU_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 251: Signal <CU_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 258: Signal <CU_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 279: Signal <CU_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 287: Signal <CU_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "H:\MyThesis\Xilinx\thesisTry\CU.v" Line 353: Signal <CU_in> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+
+Elaborating module <SP>.
+WARNING:HDLCompiler:413 - "H:\MyThesis\Xilinx\thesisTry\SP.v" Line 35: Result of 32-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:1127 - "H:\MyThesis\Xilinx\thesisTry\top_level.v" Line 103: Assignment to Test_state ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "H:\MyThesis\Xilinx\thesisTry\top_level.v" Line 104: Assignment to Test_pc ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "H:\MyThesis\Xilinx\thesisTry\top_level.v" Line 105: Assignment to Test_b ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "H:\MyThesis\Xilinx\thesisTry\top_level.v" Line 106: Assignment to Test_a ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "H:\MyThesis\Xilinx\thesisTry\top_level.v" Line 107: Assignment to Test_dat ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "H:\MyThesis\Xilinx\thesisTry\top_level.v" Line 108: Assignment to Test_MAR_in ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "H:\MyThesis\Xilinx\thesisTry\top_level.v" Line 109: Assignment to Zero ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "H:\MyThesis\Xilinx\thesisTry\top_level.v" Line 110: Assignment to Sign ignored, since the identifier is never used
+
+Elaborating module <comm_fpga_fx2>.
+WARNING:HDLCompiler:1127 - "H:\MyThesis\Xilinx\thesisTry\top_level.v" Line 143: Assignment to chanAddr ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "H:\MyThesis\Xilinx\thesisTry\top_level.v" Line 144: Assignment to h2fData ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "H:\MyThesis\Xilinx\thesisTry\top_level.v" Line 145: Assignment to h2fValid ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "H:\MyThesis\Xilinx\thesisTry\top_level.v" Line 149: Assignment to f2hReady ignored, since the identifier is never used
+WARNING:HDLCompiler:634 - "H:\MyThesis\Xilinx\thesisTry\top_level.v" Line 52: Net <f2hData[7]> does not have a driver.
